@@ -1,49 +1,152 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Hausaufgaben</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
 
-<header>
-  <h2>Hausaufgaben</h2>
-</header>
-
-
-<section>
-  <nav>
-    <ul>
-      <li><a href="vsp.html"><i>virenschtzprogramme</i></a></li>
-        <li><a href="Hausafgaben1.html"><i>Hausaufgabe 1</i></a></li>
-        <li><a href="Hausafgaben2.html"><i>Hausaufgabe 2</i></a></li>
-        <li><a href="Hausafgaben3.html"><i>Hausaufgabe 3</i></a></li>
-        <li><a href="Hausafgaben4.html"><i>Hausaufgabe 4</i></a></li>
-        <li><a href="Hausafgaben5.html"><i>Hausaufgabe 5</i></a></li>
-        <li><a href="Hausafgaben6.html"><i>Hausaufgabe 6</i></a></li>
-        <li><a href="Hausaufgabe7.html"><i>Hausaufgabe 7</i></a></li>
-        <li><a href="Hausafgaben8.html"><i>Hausaufgabe 8</i></a></li>
-        <li><a href="Hausaufgaben9.html"><i>Hausaufgabe 9</i></a></li>
-    </ul>
-  </nav>
+  <div class="header">
+    <h1>Digital Fürerschein</h1>
+  </div>
   
-  <article>
-    
- <h2> Hausaufgaben von Difü Tarraf - Coding Altassi - Sawsan </h2>
+  <div class="topnav">
+    <a href="https://github.com/superlutos2022">link für github acc</a>
+        <a href="https://superlutos2022.github.io/Digital_fuerschein/index/">link für github page's</a>
+  </div>
+  
+
+    <div class="rightcolumn">
+    <div class="card">
+      <h2>Hausaufgaben</h2>
+      <ul>
+        <li><a href="Hausuafgaben/vsp.html"><i>vsp</i></a></li>
+          <li><a href="Hausuafgaben/Hausaufgabe1.html"><i>Hausaufgabe 1</i></a></li>
+          <li><a href="Hausuafgaben/Hausaufgabe2.html"><i>Hausaufgabe 2</i></a></li>
+          <li><a href="Hausuafgaben/Hausaufgabe3.html"><i>Hausaufgabe 3</i></a></li>
+          <li><a href="Hausuafgaben/Hausaufgabe4.html"><i>Hausaufgabe 4</i></a></li>
+          <li><a href="Hausuafgaben/Hausaufgabe5.html"><i>Hausaufgabe 5</i></a></li>
+          <li><a href="Hausuafgaben/Hausaufgabe6.html"><i>Hausaufgabe 6</i></a></li>
+          <li><a href="Hausuafgaben/Hausaufgabe7.html"><i>Hausaufgabe 7</i></a></li>
+          <li><a href="Hausuafgaben/Hausaufgabe8.html"><i>Hausaufgabe 8</i></a></li>
+          <li><a href="Hausuafgaben/Hausaufgabe9.html"><i>Hausaufgabe 9</i></a></li>
+      </ul>
+</div>
+</div>
+      <div class="card">
+        <h1>Die regeln</h1>
 <br>
 <br>
-  <p>die regeln sind :<br>
-  Die Hausaufgaben müssen immer gemacht werden und vor den <br>
-  meeting geschikt alles was man macht mus auch auf git hub hochgeladen </p>
+<br>
+<br>
+        <h2>
+          die regeln sind :<br>
+        Die Hausaufgaben müssen immer gemacht werden und vor den<br>
+        meeting geschikt werden alles was man macht mus auch auf git hub hochgeladen werden
 
-  </article>
-</section>
-
-<footer>
-  <p>von wasel</p>
-</footer>
-
+        </h2>
+        </div>
+     
+  
+  <div class="footer">
+    <h2>
+      <br>
+      <br>
+      <br>
+    </h2>
+  </div>
 </body>
 </html>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+  }
+  
+ 
+  .header {
+    padding: 30px;
+    text-align: center;
+    background: #ddd;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+  }
+  
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+
+  .rightcolumn {
+    float: right;
+    width: 25%;
+    background-color: #7e7976;
+    padding-left: 20px;
+  }
+  
+  
+
+  .card {
+    background-color: #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center ;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(94, 92, 88);
+    margin-top: 20px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+  </style>
